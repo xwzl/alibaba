@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.105.218.58:8848
+server:
+  port: 8081
