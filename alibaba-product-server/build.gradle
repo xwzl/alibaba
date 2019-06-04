@@ -1,0 +1,9 @@
+dependencies {
+    
+    compile(project(":alibaba-order-client"))
+    
+    compile 'org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery'
+    compile 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    
+}

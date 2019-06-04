@@ -5,5 +5,7 @@ pluginManagement {
 }
 rootProject.name = 'alibaba'
 
-include 'alibaba-server'
-include 'alibaba-common'
+include 'alibaba-product-server'
+include 'alibaba-order-server'
+include 'alibaba-order-client'
+include 'alibaba-config-client'
